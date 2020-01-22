@@ -36,6 +36,7 @@ The response trigger shows that Acknowledge will create a new channel, post a me
 
 ### Archive Channel
 The **Archive Channel** step is used for archiving channels that have been created. Handy for cleaning up all those channels that get created. 
+
 <kbd>
   <img src="/media/archive.png" width="350">
 </kbd>
@@ -46,6 +47,7 @@ The inputs are:
 
 ### Invite Users
 The **Invite Users** step is handy for inviting one or more users to a channel. 
+
 <kbd>
   <img src="/media/invite.png" width="350">
 </kbd>
