@@ -54,7 +54,7 @@ The **Invite Users** step is handy for inviting one or more users to a channel.
 
 The inputs are:
 * **Channel Name** - The channel or ID to invite users to
-* **Username** - The username, or a comma separated list of usernames to invite to the channel.
+* **Username** - The Slack display name, or a comma separated list of names to invite to the channel. Technically these display names can change on a whim, so this also accepts email addresses which is a more direct way of looking up a user in the Slack API. 
 
 ## Profit
 Add the steps to your desired workflow. 
