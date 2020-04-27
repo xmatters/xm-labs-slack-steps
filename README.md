@@ -1,7 +1,5 @@
 # Slack Flow Steps
-This Workflow contains several steps for interacting with Slack. Namely:
-1. Archive channel
-2. Invite users
+This Workflow contains an **Archive Channel** step for interacting with Slack.
 
 <kbd>
   <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
@@ -45,20 +43,9 @@ The inputs are:
 * **Channel Name** - The name or ID of the channel to archive
 * **Throw error if not found?** - If the channel is not found, should we throw an error or ignore. This is helpful if there are flows that may not have created a channel as expected. So instead of building another step to see if the channel exists and then archiving, this will just continue happily if the channel is not found rather than throwing an error. 
 
-### Invite Users
-The **Invite Users** step is handy for inviting one or more users to a channel. 
-
-<kbd>
-  <img src="/media/invite.png">
-</kbd>
-
-The inputs are:
-* **Channel Name** - The channel or ID to invite users to
-* **Username** - The Slack display name, or a comma separated list of names to invite to the channel. Technically these display names can change on a whim, so this also accepts email addresses which is a more direct way of looking up a user in the Slack API. 
 
 ## Profit
 Add the steps to your desired workflow. 
-
 
 
 # Troubleshooting
