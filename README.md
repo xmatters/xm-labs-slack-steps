@@ -43,8 +43,7 @@ The inputs are:
 * **Channel Name** - The name or ID of the channel to archive
 * **Throw error if not found?** - If the channel is not found, should we throw an error or ignore. This is helpful if there are flows that may not have created a channel as expected. So instead of building another step to see if the channel exists and then archiving, this will just continue happily if the channel is not found rather than throwing an error. 
 
-<<<<<<< HEAD
-=======
+
 ### Invite Users
 The **Invite Users** step is handy for inviting one or more users to a channel. 
 
@@ -55,7 +54,6 @@ The **Invite Users** step is handy for inviting one or more users to a channel.
 The inputs are:
 * **Channel Name** - The channel or ID to invite users to
 * **Username** - The username, or a comma separated list of usernames to invite to the channel.
->>>>>>> parent of 63515ba... Update README.md
 
 ## Profit
 Add the steps to your desired workflow. 
