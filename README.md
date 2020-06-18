@@ -53,7 +53,7 @@ The **Invite Users** step is handy for inviting one or more users to a channel.
 
 The inputs are:
 * **Channel Name** - The channel or ID to invite users to
-* **Username** - The username, or a comma separated list of usernames to invite to the channel.
+* **Username** - The username, or a comma separated list of usernames to invite to the channel. Also supports userId and email addresses. 
 
 ## Profit
 Add the steps to your desired workflow. 
